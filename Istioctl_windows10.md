@@ -5,11 +5,11 @@
 
 ### Unzip file istio-1.12.9-win.zip
 - Rename folder istio-1.12.9-win to istio-1.12.9
-- Copy path upto bin foler like C:/../istio-1.12.9-win/bin
+- Copy path upto bin foler like C:/Dashboard/istio-1.12.9-win/bin
 
 ### Set the environment variable
 - Copy the absolute path to the `bin` folder under the downloaded istio-<VERSION_NUMBER> folder
-  e.g., C:/Users/Administrator/istio-1.0.5-win/istio-1.0.5/bin
+  e.g., C:/Dashboard/istio-1.0.5-win/istio-1.0.5/bin
 - In the Search on the taskbar, look and open "Edit environment variables for my account".
 - Under User variables, edit `path` environment variable and add a new entry pointing to the bin folder as copied above. Save the entries.
 
