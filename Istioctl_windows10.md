@@ -4,7 +4,7 @@
 - File Name - istio-1.13.6-win.zip
 
 ### Unzip file istio-1.13.6-win.zip
-- Rename folder istio-1.12.9-win to istio-1.13.6
+- Rename folder istio-1.13.6-win to istio-1.13.6
 - Copy folder istio-1.13.6 to Download folder
 - Copy path upto bin foler like C:/Dashboard/istio-1.13.6/bin
 
