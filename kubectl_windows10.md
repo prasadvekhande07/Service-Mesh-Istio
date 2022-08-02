@@ -8,8 +8,8 @@
 
 ### Set the environment variable
 - Copy the absolute path folder under the downloaded kubectl.exe
-  e.g., C:/Dashboard/kubectl.exe
-- In the Search on the taskbar, look and open "Edit environment variables for my account".
+  e.g., C:\Dashboard\kubectl.exe
+- In the Search on the taskbar, look and open "Edit System Environment Variables for my account".
 - Under System variables, edit `path` environment variable and add a new entry pointing to the Daseboard folder as copied above. Save the entries.
 
 ### Test Istioctl
