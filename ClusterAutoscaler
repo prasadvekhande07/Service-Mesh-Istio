@@ -1,4 +1,6 @@
 ===== Cluster Auto Scaler Deployment in EKS========
+The Cluster Autoscaler is a component in Kubernetes that automatically adjusts the size of your cluster by dynamically scaling the number of nodes up or down based on resource demands. 
+It ensures that your cluster has the right amount of capacity to handle the workloads effectively while minimizing resource wastage.
 
 1) Create AWS policy with below Actions .
 
