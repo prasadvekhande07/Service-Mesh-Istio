@@ -10,14 +10,15 @@ EKS Setup
      https://amazon-eks.s3.us-west-2.amazonaws.com/cloudformation/2020-08-12/amazon-eks-vpc-private-subnets.yaml 
 3) Create EKS Cluster.(##youtube link)
 4) Create IAM Role For EKS Worker Nodes.
-        AmazonEKSWorkerNodePolicy
-        AmazonEKS_CNI_Policy
-        AmazonEC2ContainerRegistryReadOnly -- > 
+       -  AmazonEKSWorkerNodePolicy
+       -  AmazonEKS_CNI_Policy
+       -  AmazonEC2ContainerRegistryReadOnly 
 5) Create Worker Nodes.
 6) Create An Instance (If Not Exists) Install AWS CLI , IAM Authenticator And kubectl. Configure AWS CLI using Root or IAM User Access Key & Secret Key. Or Attach IAM With Required       Policies.
       aws eks update-kubeconfig --name <ClusterName> --region <RegionName>
    Below are the steps for point 6.
-   ####Setup K8s Client Machine #####
+
+####Setup K8s Client Machine #####
 
 ### Install Kubectl In Linux====
 
@@ -42,15 +43,18 @@ kubectl version --client
 	curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
 2) Download & Install Unzip
+   
     sudo yum install unzip -y
    
-4) Extract Zip 
+4) Extract Zip
+   
     unzip awscliv2.zip
    	
-5) Install
+6) Install
+   
 	sudo ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 
-6) Verify
+8) Verify
   aws --version		
 ######## Configure AWS CLI using ACCESS Key & Secret Key ########
 
