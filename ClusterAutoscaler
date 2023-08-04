@@ -28,6 +28,7 @@ Cluster Autoscaler is a tool that automatically adjusts the size of the Kubernet
 2) Attach policy to IAM Role which is used in EKS Node Group.
 	
 3) Deploy ClusterAutoScaler using below yml(Make sure u update - --node-group-auto-discovery values with your cluster name under cluster-autoscaler deployment commands.)
+  ##  This is the link to the cluster-autoscaler-autodiscovery yaml file >> https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
 
 
 
