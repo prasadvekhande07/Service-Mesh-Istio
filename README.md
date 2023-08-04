@@ -67,4 +67,4 @@ aws eks update-kubeconfig --name <ClusterName> --region <RegionName>
 ##### Verify Kubectl #####
 kubectl get nodes
 kubectl get pods 
-## Congratulation!! you EKS cluster is up and running ######
+## Congratulation!! your EKS cluster is up and running ######
