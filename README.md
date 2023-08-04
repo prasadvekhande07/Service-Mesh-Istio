@@ -5,7 +5,7 @@ Below are the steps you can follow to create your managed K8s cluster on AWS usi
 EKS Setup
 #########
 1) Create IAM Role For EKS Cluster.
-      EKS – Cluster (assume role will be attached to it you don't need to add any policy)
+      EKS – Cluster (assume role will be attached to it . You don't need to add any policy)
 2) Create Dedicated VPC For EKS Cluster. Using CloudFormation. 
      https://amazon-eks.s3.us-west-2.amazonaws.com/cloudformation/2020-08-12/amazon-eks-vpc-private-subnets.yaml 
 3) Create EKS Cluster.(##youtube link)
